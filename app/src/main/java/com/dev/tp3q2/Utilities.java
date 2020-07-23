@@ -8,7 +8,7 @@ public class Utilities {
 
         if (email.matches(BEFORE_AT_SIGN_REGEX_PATTERN))
             if (email.matches(AFTER_AT_SIGN_REGEX_PATTERN))
-                if (email.matches(BEFORE_END_WITH_REGEX_PATTERN))
+                if (email.matches(END_WITH_REGEX_PATTERN))
                     return YES;
                 else
                     return "Le mail doit se terminer par .com, .net ou .org";

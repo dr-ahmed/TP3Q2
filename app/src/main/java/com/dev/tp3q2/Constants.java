@@ -1,5 +1,7 @@
 package com.dev.tp3q2;
 
+import java.util.regex.Pattern;
+
 public class Constants {
 
     public static final String DIGIT_REGEX_PATTERN = ".*[0-9]+.*",
@@ -10,7 +12,7 @@ public class Constants {
 
     public static final String BEFORE_AT_SIGN_REGEX_PATTERN = "^.{2,}@.*$",
             AFTER_AT_SIGN_REGEX_PATTERN = "^.*@.{3,}$",
-            BEFORE_END_WITH_REGEX_PATTERN = ".*(com|org|net).*";
+            END_WITH_REGEX_PATTERN = ".*\\.(com|org|net)";
 
     public static final String YES = "YES";
 
